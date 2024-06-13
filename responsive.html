@@ -19,10 +19,11 @@
             height: 100%;
         }
 
-        .container-fluid,
-        .row {
+        .container-fluid >.row {
             height: 100%;
             display: flex;
+            width: 100%;
+            margin: 0%;
         }
 
         .nav-div {
@@ -56,7 +57,7 @@
         }
 
         .content-div {
-            padding: 10px;
+            padding: 0px;
             flex-grow: 1;
         }
 
@@ -67,10 +68,18 @@
             padding: 1px;
             margin-bottom: 0;
         }
+        #dashboard{
+            max-width: 100%;
+            margin: 0;
+
+        }
 
         ul.nav {
             text-align: center;
             margin: 7px;
+        }
+        .row1,.row2,.row3{
+            margin: 5px;
         }
 
         .card {
@@ -78,9 +87,10 @@
             /* Allow the card to grow based on content */
             max-height: 300px;
             /* Set a minimum width for the cards */
-            width: 317px;
+            width: 325px;
             padding: 10px;
             /* Add padding for internal spacing */
+            margin: auto;
         }
 
         .card-body {
@@ -124,10 +134,10 @@
             </div>
             <div class="col-lg-9 col-md-8 col-sm-6 content-div" id="dashboard">
                 <h1 class="main-titles" style="text-align: left;">My Course</h1>
-                <div class="row">
+                <div class="row row1">
                     <!-- Repeat this card div 12 times for 12 cards -->
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
+                        <div class="card mx-auto mb-4">
                             <div class="card-body">
                                 <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
                                     style="border-radius: 50px;">
@@ -155,7 +165,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
+                        <div class="card mx-auto mb-4">
                             <div class="card-body">
                                 <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
                                     style="border-radius: 50px;">
@@ -183,7 +193,36 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
+                        <div class="card mx-auto mb-4">
+                            <div class="card-body">
+                                <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
+                                    style="border-radius: 50px;">
+                                    <i class="bi bi-three-dots" style="margin-left: 220px; font-size: 10px; color: gray;"></i>
+                                <p style="font-weight: 500; font-size: 15px; margin-bottom: 4px;">History of graphic
+                                    design</p>
+                                <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="25" height="25"
+                                    style="border-radius: 50px;">
+                                <span style="font-weight: 400; font-size: 11px; color: gray;">Brigit Chelangat</span>
+                                <p style="margin-bottom: 10px;">
+                                    <i class="bi bi-book"
+                                        style="font-size: 10px; color: blue; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 1px;"></i>
+                                    <span style="font-weight: 400; font-size: 10px; color: gray; line-height: 1;">15
+                                        Lessons</span>
+                                    <i class="bi bi-clock"
+                                        style="font-size: 9px; color: blue; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 15px;"></i>
+                                    <span style="font-weight: 400; font-size: 10px; color: gray;">40Hours</span>
+                                </p>
+                                <i class="bi bi-check-circle-fill"
+                                    style="font-size: 10px; color: #4dc591; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 1px;"></i>
+                                <span
+                                    style="font-weight: 400; font-size: 10px; color: gray; line-height: 1;">Completed</span>
+
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mx-auto mb-4">
                             <div class="card-body">
                                 <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
                                     style="border-radius: 50px;">
@@ -211,7 +250,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
+                        <div class="card mx-auto mb-4">
                             <div class="card-body">
                                 <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
                                     style="border-radius: 50px;">
@@ -239,7 +278,36 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
+                        <div class="card mx-auto mb-4">
+                            <div class="card-body">
+                                <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
+                                    style="border-radius: 50px;">
+                                    <i class="bi bi-three-dots" style="margin-left: 220px; font-size: 10px; color: gray;"></i>
+                                <p style="font-weight: 500; font-size: 15px; margin-bottom: 4px;">History of graphic
+                                    design</p>
+                                <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="25" height="25"
+                                    style="border-radius: 50px;">
+                                <span style="font-weight: 400; font-size: 11px; color: gray;">Brigit Chelangat</span>
+                                <p style="margin-bottom: 10px;">
+                                    <i class="bi bi-book"
+                                        style="font-size: 10px; color: blue; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 1px;"></i>
+                                    <span style="font-weight: 400; font-size: 10px; color: gray; line-height: 1;">15
+                                        Lessons</span>
+                                    <i class="bi bi-clock"
+                                        style="font-size: 9px; color: blue; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 15px;"></i>
+                                    <span style="font-weight: 400; font-size: 10px; color: gray;">40Hours</span>
+                                </p>
+                                <i class="bi bi-check-circle-fill"
+                                    style="font-size: 10px; color: #4dc591; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 1px;"></i>
+                                <span
+                                    style="font-weight: 400; font-size: 10px; color: gray; line-height: 1;">Completed</span>
+
+                            </div>
+                        </div>
+                    </div>
+             
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mx-auto mb-1">
                             <div class="card-body">
                                 <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
                                     style="border-radius: 50px;">
@@ -267,7 +335,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
+                        <div class="card mx-auto mb-1">
                             <div class="card-body">
                                 <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
                                     style="border-radius: 50px;">
@@ -295,7 +363,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
+                        <div class="card mx-auto mb-1">
                             <div class="card-body">
                                 <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
                                     style="border-radius: 50px;">
@@ -322,63 +390,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
-                                    style="border-radius: 50px;">
-                                    <i class="bi bi-three-dots" style="margin-left: 220px; font-size: 10px; color: gray;"></i>
-                                <p style="font-weight: 500; font-size: 15px; margin-bottom: 4px;">History of graphic
-                                    design</p>
-                                <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="25" height="25"
-                                    style="border-radius: 50px;">
-                                <span style="font-weight: 400; font-size: 11px; color: gray;">Brigit Chelangat</span>
-                                <p style="margin-bottom: 10px;">
-                                    <i class="bi bi-book"
-                                        style="font-size: 10px; color: blue; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 1px;"></i>
-                                    <span style="font-weight: 400; font-size: 10px; color: gray; line-height: 1;">15
-                                        Lessons</span>
-                                    <i class="bi bi-clock"
-                                        style="font-size: 9px; color: blue; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 15px;"></i>
-                                    <span style="font-weight: 400; font-size: 10px; color: gray;">40Hours</span>
-                                </p>
-                                <i class="bi bi-check-circle-fill"
-                                    style="font-size: 10px; color: #4dc591; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 1px;"></i>
-                                <span
-                                    style="font-weight: 400; font-size: 10px; color: gray; line-height: 1;">Completed</span>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="40" height="40"
-                                    style="border-radius: 50px;">
-                                    <i class="bi bi-three-dots" style="margin-left: 220px; font-size: 10px; color: gray;"></i>
-                                <p style="font-weight: 500; font-size: 15px; margin-bottom: 4px;">History of graphic
-                                    design</p>
-                                <img src="brigitimage.jpeg" alt="Logo" class="img-fluid" width="25" height="25"
-                                    style="border-radius: 50px;">
-                                <span style="font-weight: 400; font-size: 11px; color: gray;">Brigit Chelangat</span>
-                                <p style="margin-bottom: 10px;">
-                                    <i class="bi bi-book"
-                                        style="font-size: 10px; color: blue; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 1px;"></i>
-                                    <span style="font-weight: 400; font-size: 10px; color: gray; line-height: 1;">15
-                                        Lessons</span>
-                                    <i class="bi bi-clock"
-                                        style="font-size: 9px; color: blue; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 15px;"></i>
-                                    <span style="font-weight: 400; font-size: 10px; color: gray;">40Hours</span>
-                                </p>
-                                <i class="bi bi-check-circle-fill"
-                                    style="font-size: 10px; color: #4dc591; line-height: 1; font-weight: 500 !important; text-align: center; margin-left: 1px;"></i>
-                                <span
-                                    style="font-weight: 400; font-size: 10px; color: gray; line-height: 1;">Completed</span>
-
-                            </div>
-                        </div>
-                    </div>
-
+                </div>
                 </div>
             </div>
         </div>
